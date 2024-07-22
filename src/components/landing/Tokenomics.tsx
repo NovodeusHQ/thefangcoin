@@ -12,12 +12,13 @@ const Tokenomics = () => {
     return (
         <div className="components-container tokenomics">
             <h2 className={`${styles.gradientSubheader} ${sharpGroteskBold.className} gradient-text`}>TOKENOMICS</h2>
+
             <div className="row">
                 <div className="col-6">
                     <Image src={images.Coins} alt="Tokenomics coins" className='img-fluid' />
                 </div>
 
-                <div className="col-6">
+                <div className="col-6 d-flex flex-column justify-content-between">
                     <div className="row mb-4">
                         <div className="col-4">
                             <Image src={icons.tokenomics} alt="Tokenomics point" className='img-fluid' />

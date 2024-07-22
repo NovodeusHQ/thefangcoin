@@ -183,6 +183,11 @@ div {
     text-align: left;
 }
 
+.bottomImage {
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 600px) {
     .components-container {
         padding: 2rem 1rem 2rem 1rem;
