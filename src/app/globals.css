@@ -78,7 +78,7 @@ div {
     /* Outer Glow */
     box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.3);
     /* Grey Blurred Background */
-    /* background-color: rgba(128, 128, 128, 0.3); */
+    background-color: rgba(128, 128, 128, 0.3);
     /* Grey color with opacity */
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
@@ -121,6 +121,13 @@ div {
     color: #ffa200 !important;
 }
 
+.world-is-yours {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
 .casino {
     font-size: 80px;
     font-weight: 700;
@@ -157,7 +164,7 @@ div {
         font-weight: 700;
         line-height: 35px;
         text-align: center;
-        padding-top: 1.5rem;
+        padding-top: 1rem;
     }
     .tokenomicsPoints {
         font-size: 18px;

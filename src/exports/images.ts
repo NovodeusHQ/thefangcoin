@@ -10,6 +10,9 @@ import Stars from "../assets/svgs/Stars.svg";
 
 import CheckIcon from "../assets/icons/check.svg";
 import tokenomics from "../assets/icons/tokenomics.svg";
+import twitter from "../assets/icons/twitter.svg";
+import telegram from "../assets/icons/telegram.svg";
+import dexscreener from "../assets/icons/dexscreener.svg";
 
 export const images = {
     FabulousVegas,
@@ -26,5 +29,7 @@ export const images = {
 export const icons = {
     CheckIcon,
     tokenomics,
-
+    twitter,
+    telegram,
+    dexscreener
 };
