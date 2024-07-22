@@ -7,7 +7,7 @@ const Collaborators = () => {
         <div className='d-flex flex-column align-items-center components-container'>
             <h2 className='mb-4'>Collaborators</h2>
 
-            <div className='d-block d-md-flex'>
+            <div className='d-md-flex'>
 
                 <div className='collaborators-tiles mb-5 mb-md-0 me-md-5'>
                     <Image src={images.AYB} alt="All Your Base" className='mb-1' />
