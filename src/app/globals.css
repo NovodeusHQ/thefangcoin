@@ -66,12 +66,11 @@ div {
     z-index: -1;
 }
 
-.collaborators-tiles {
+.collaborators-tiles-plain {
     width: 270px;
     height: 270px;
     padding: 16px 8px 16px 8px;
     /* border-radius: 20px 0px 0px 0px; */
-    opacity: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,13 +90,12 @@ div {
     height: 270px;
     padding: 16px 8px 16px 8px;
     /* border-radius: 20px 0px 0px 0px; */
-    opacity: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.collaborators-tiles-glowing {
+.collaborators-tiles {
     position: relative;
     border: 1px solid transparent;
     border-image-source: radial-gradient( 69.43% 69.43% at 50% 50%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
@@ -109,7 +107,7 @@ div {
     /* Outer Glow */
     box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.3);
     /* Grey Blurred Background */
-    background-color: rgba(128, 128, 128, 0.3);
+    background-color: rgba(128, 128, 128, 0.075);
     /* Grey color with opacity */
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
@@ -118,7 +116,6 @@ div {
     height: 270px;
     padding: 16px 8px 16px 8px;
     /* border-radius: 20px 0px 0px 0px; */
-    opacity: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
