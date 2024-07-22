@@ -67,6 +67,25 @@ div {
 }
 
 .collaborators-tiles {
+    border: 1px solid transparent;
+    /* Make sure to use 'transparent' for the border to allow gradient visibility */
+    border-image-source: radial-gradient( 69.43% 69.43% at 50% 50%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    border-image-slice: 1;
+    background-image: radial-gradient( 60% 51.57% at 50% 50%, #0938df 0%, rgba(9, 56, 223, 0) 100%), radial-gradient(54.8% 53% at 50% 50%, #151515 0%, rgba(21, 21, 21, 0) 100%);
+    background-clip: border-box;
+    border-radius: 8px;
+    /* Optional: To round the corners */
+    width: 270px;
+    height: 270px;
+    padding: 16px 8px 16px 8px;
+    /* border-radius: 20px 0px 0px 0px; */
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collaborators-tiles-glowing {
     position: relative;
     border: 1px solid transparent;
     border-image-source: radial-gradient( 69.43% 69.43% at 50% 50%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
@@ -177,5 +196,11 @@ div {
         line-height: 18px;
         text-align: center;
         padding: 1rem 2rem 1rem 2rem;
+    }
+    .collaborators-tiles h3 {
+        font-size: 18px;
+    }
+    .collaborators-tiles p {
+        font-size: 15px;
     }
 }
