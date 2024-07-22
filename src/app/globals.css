@@ -67,6 +67,17 @@ div {
 }
 
 .collaborators-tiles {
+    width: 270px;
+    height: 270px;
+    padding: 16px 8px 16px 8px;
+    /* border-radius: 20px 0px 0px 0px; */
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collaborators-tiles-org {
     z-index: 500;
     border: 1px solid transparent;
     /* Make sure to use 'transparent' for the border to allow gradient visibility */
