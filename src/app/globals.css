@@ -67,6 +67,7 @@ div {
 }
 
 .collaborators-tiles {
+    z-index: 500;
     border: 1px solid transparent;
     /* Make sure to use 'transparent' for the border to allow gradient visibility */
     border-image-source: radial-gradient( 69.43% 69.43% at 50% 50%, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
