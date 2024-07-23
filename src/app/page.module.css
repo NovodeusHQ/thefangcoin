@@ -338,7 +338,8 @@
         padding: 0rem 3rem 0rem 3rem; */
         font-size: 12px;
         line-height: 15px;
-        bottom: 5rem;
+        top: 50%;
+        transform: translate(-50%, 80%);
         z-index: 1000;
         width: 80%;
     }
