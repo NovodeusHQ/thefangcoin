@@ -5,6 +5,7 @@ import AYB from "../assets/svgs/AYB.svg";
 import NUXGame from "../assets/svgs/NUXGame.svg";
 import FANG from "../assets/svgs/FANG.svg";
 import Stars from "../assets/svgs/Stars.svg";
+import LuckyFang from "../assets/svgs/LuckyFang.svg";
 
 
 
@@ -22,6 +23,8 @@ export const images = {
     FANG,
     NUXGame,
     Stars,
+    LuckyFang,
+
 
 
 };

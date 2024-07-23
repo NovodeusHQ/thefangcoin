@@ -199,7 +199,7 @@
     height: 60px; */
     top: 916px;
     left: 628px;
-    padding: 5px 49px 5px 49px;
+    /* padding: 5px 49px 5px 49px; */
     gap: 0px;
     border-radius: 10px;
     text-align: center;
@@ -210,7 +210,7 @@
     align-self: flex-end;
 }
 
-.luckyFang {
+.luckyFangPictureBcg {
     width: 100%;
     height: auto;
     display: flex;
@@ -227,13 +227,23 @@
     flex-direction: row;
 }
 
+.luckyFang {
+    position: relative;
+}
+
 .fangDollar {
-    margin: 20rem 0rem 5rem 0rem;
-    padding: 0rem 20rem 0rem 20rem;
+    /* margin: 20rem 0rem 5rem 0rem;
+    padding: 0rem 20rem 0rem 20rem; */
     text-align: center;
     font-weight: 500;
     font-size: 22px;
     line-height: 25px;
+    position: relative;
+    bottom: 13rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1000;
+    width: 65%;
 }
 
 .seriousStuffPoints {
@@ -324,10 +334,13 @@
         text-align: center;
     }
     .fangDollar {
-        margin: 7rem 0rem 1rem 0rem;
-        padding: 0rem 3rem 0rem 3rem;
+        /* margin: 7rem 0rem 1rem 0rem;
+        padding: 0rem 3rem 0rem 3rem; */
         font-size: 12px;
         line-height: 15px;
+        bottom: 7.5rem;
+        z-index: 1000;
+        width: 80%;
     }
     .seriousStuffPoints {
         background-color: #1d354b;

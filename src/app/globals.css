@@ -161,7 +161,11 @@ div {
     font-weight: 700;
     line-height: 96px;
     text-align: center;
-    padding-top: 3rem;
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    width: 100%;
 }
 
 .tokenomics {
@@ -183,7 +187,7 @@ div {
     text-align: left;
 }
 
-.bottomImage {
+.coverImage {
     width: 100%;
     height: auto;
 }
@@ -193,11 +197,12 @@ div {
         padding: 2rem 1rem 2rem 1rem;
     }
     .casino {
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 700;
-        line-height: 35px;
+        line-height: 32px;
         text-align: center;
         padding-top: 1rem;
+        top: 0.8rem
     }
     .tokenomicsPoints {
         font-size: 18px;
