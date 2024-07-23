@@ -11,7 +11,7 @@ const sharpGrotesk = localFont({ src: "../assets/fonts/Sharp_Grotesk/SharpGrotes
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sharp Grotesk",
+  title: "FANG COIN",
   description: "THE WORLD IS YOURS",
 };
 
