@@ -157,6 +157,8 @@
     font-weight: 700 !important;
     text-align: center;
     /* line-height: 300px; */
+    z-index: 10 !important;
+    position: relative;
 }
 
 .topBanner {
@@ -170,6 +172,7 @@
     top: 45%;
     transform: translate(-50%, -50%);
     height: auto;
+    z-index: 1000;
 }
 
 .stars1 {
@@ -177,19 +180,21 @@
     left: 0px;
     top: 0px;
     /* transform: translate(-50%, -50%); */
+    /* scale: 0.1; */
+    z-index: 1 !important;
+    max-width: 400px;
     height: auto;
-    scale: 0.1;
-    z-index: 101;
 }
 
-.stars1 {
+.stars2 {
     position: absolute;
     right: 0px;
     bottom: 0px;
     /* transform: translate(-50%, -50%); */
+    /* scale: 0.3; */
+    z-index: 1 !important;
+    max-width: 400px;
     height: auto;
-    scale: 0.1;
-    z-index: 100;
 }
 
 .contractAddress {
@@ -208,6 +213,7 @@
     font-weight: 100;
     max-height: 60px;
     align-self: flex-end;
+    z-index: 100;
 }
 
 .luckyFangPictureBcg {
@@ -229,6 +235,7 @@
 
 .luckyFang {
     position: relative;
+    margin-bottom: 0px !important;
 }
 
 .fangDollar {
@@ -238,12 +245,12 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 25px;
-    position: relative;
-    bottom: 13rem;
+    position: absolute;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, 0%);
     z-index: 1000;
-    width: 65%;
+    width: 50%;
 }
 
 .seriousStuffPoints {
@@ -338,8 +345,8 @@
         padding: 0rem 3rem 0rem 3rem; */
         font-size: 12px;
         line-height: 15px;
-        top: 50%;
-        transform: translate(-50%, 80%);
+        top: 60%;
+        transform: translate(-50%, 0%);
         z-index: 1000;
         width: 90%;
     }
