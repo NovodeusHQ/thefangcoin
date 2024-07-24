@@ -16,11 +16,10 @@ const TopBanner = () => {
 
             <h1 className={`${styles.topBannerText} ${sharpGroteskBold.className} gradient-text`}>FANG<br />COIN</h1>
 
-            <div className="row px-5 move-to-fore">
+            <div className="row px-5 move-to-fore d-flex justify-content-between">
                 <div className="col-12 col-md-4 mb-4 mb-md-0 gradient-text world-is-yours">
                     <p>THE WORLD IS YOURS</p>
                     <Socials color='white' />
-
                 </div>
 
                 <div className={`${styles.contractAddress} col-12 col-md-8`}>
