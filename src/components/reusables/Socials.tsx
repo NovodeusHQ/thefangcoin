@@ -25,8 +25,8 @@ const Socials: React.FC<SocialsProps> = ({ color }) => {
             {socials.map((social, idx) => {
                 return (
                     <div key={idx}
-                        style={{ width: '60px', height: '60px', backgroundColor: color, borderRadius: '23px' }}
-                        className='d-flex justify-content-center align-items-center mx-2'
+                        style={{ backgroundColor: color }}
+                        className='d-flex justify-content-center align-items-center mx-2 socials'
                     >
                         <Link href="#!">
                             <Image src={social.logo} alt={`${social.name} account`}  />
