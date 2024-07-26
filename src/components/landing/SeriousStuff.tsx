@@ -13,7 +13,7 @@ const SeriousStuff = () => {
 
             <div className={`${styles.seriousStuffPoints} ${styles.earnRewards} row mb-3`}>
                 <div className="col-2 col-md-1 me-0 me-md-3">
-                    <Image src={icons.CheckIcon} alt="checkIcon" />
+                    <Image src={icons.checkIcon} alt="check icon" />
                 </div>
 
                 <hgroup className="col-10">
@@ -26,7 +26,7 @@ const SeriousStuff = () => {
             <div className={`mb-3 d-flex flex-column flex-md-row align-items-center`}>
                 <div className={`${styles.seriousStuffPoints} ${styles.governanceToken} mb-3 mb-md-0 me-md-4 row`}>
                     <div className="col-2">
-                        <Image src={icons.CheckIcon} alt="checkIcon" />
+                        <Image src={icons.flashIcon} alt="flash icon" />
                     </div>
 
                     <hgroup className="col-10">
@@ -37,7 +37,7 @@ const SeriousStuff = () => {
 
                 <div className={`${styles.seriousStuffPoints} ${styles.raffleTickets} row`}>
                     <div className="col-2">
-                        <Image src={icons.CheckIcon} alt="checkIcon" />
+                        <Image src={icons.dollarSignIcon} alt="dollar sign icon" />
                     </div>
 
                     <hgroup className="col-10">
@@ -50,7 +50,7 @@ const SeriousStuff = () => {
 
             <div className={`${styles.seriousStuffPoints} ${styles.roadMap} row`}>
                 <div className="col-2">
-                    <Image src={icons.CheckIcon} alt="checkIcon" />
+                    <Image src={icons.crownIcon} alt="crown icon" />
                 </div>
 
                 <hgroup className="col-10">

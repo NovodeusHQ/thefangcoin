@@ -9,7 +9,10 @@ import LuckyFang from "../assets/svgs/LuckyFang.svg";
 
 
 
-import CheckIcon from "../assets/icons/check.svg";
+import checkIcon from "../assets/icons/check.svg";
+import flashIcon from "../assets/icons/flash.svg";
+import dollarSignIcon from "../assets/icons/dollarSign.svg";
+import crownIcon from "../assets/icons/crown.svg";
 import tokenomics from "../assets/icons/tokenomics.svg";
 import twitter from "../assets/icons/twitter.svg";
 import telegram from "../assets/icons/telegram.svg";
@@ -30,9 +33,12 @@ export const images = {
 };
 
 export const icons = {
-    CheckIcon,
+    checkIcon,
     tokenomics,
     twitter,
     telegram,
-    dexscreener
+    dexscreener,
+    flashIcon,
+    dollarSignIcon,
+    crownIcon
 };
