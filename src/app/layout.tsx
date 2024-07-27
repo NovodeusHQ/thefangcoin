@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "@/components/layout/Footer";
+import AOSAnimation from "@/utils/AosInit";
 
 import localFont from "@next/font/local";
 
@@ -23,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sharpGrotesk.className}>
-        {children}
+        <AOSAnimation>{children}</AOSAnimation>
         <Footer />
       </body>
     </html>

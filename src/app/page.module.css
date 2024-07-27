@@ -153,12 +153,14 @@
 .topBannerText {
     /* margin-top: 198px; */
     color: #ffa200 !important;
-    font-size: 300px;
-    font-weight: 700 !important;
     text-align: center;
     /* line-height: 300px; */
     z-index: 10 !important;
     position: relative;
+    background: linear-gradient(to bottom, #ffa200, #000000);
+    background-clip: linear-gradient(to bottom, #ffa200, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffa200;
 }
 
 .topBanner {
@@ -168,9 +170,9 @@
 
 .fang {
     position: absolute;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 20%;
+    /* transform: translate(-50%, -100%); */
     height: auto;
     z-index: 1000;
 }
@@ -312,14 +314,17 @@
 
 @media (max-width: 600px) {
     .topBannerText {
-        font-size: 150px;
+        font-size: 150px !important;
         font-weight: 700;
         text-align: center;
     }
+    .topBanner {
+        padding: 2rem 0rem 1rem 0rem;
+    }
     .fang {
         position: absolute;
-        left: 30%;
-        top: 20%;
+        left: 3%;
+        top: 8%;
         /* transform: translate(-50%, -50%); */
         height: auto;
         scale: 0.5;
