@@ -324,8 +324,8 @@
     .fang {
         position: absolute;
         left: 3%;
-        top: 8%;
-        /* transform: translate(-50%, -50%); */
+        top: -3%;
+        /* transform: translate(-0%, -100%); */
         height: auto;
         scale: 0.5;
     }
@@ -352,7 +352,7 @@
         padding: 0rem 3rem 0rem 3rem; */
         font-size: 12px;
         line-height: 15px;
-        top: 60%;
+        top: 55%;
         transform: translate(-50%, 0%);
         z-index: 1000;
         width: 90%;
