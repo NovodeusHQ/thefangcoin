@@ -9,7 +9,7 @@ const CTA = () => {
         Join us on this exciting journey as we redefine the online casino industry. With $FANG, you are not just an investor; you are part of a community that&apos;s shaping the future of entertainment and gaming. Stay connected, stay engaged, Stay Fanging Baby!
         </p>
 
-        <Image src={images.BottomImage} alt="buttomImage" className='img-fluid coverImage' />
+        <Image src={images.BottomImage} alt="$fang cheers" className='img-fluid coverImage' />
     </div>
   )
 }
