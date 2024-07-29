@@ -9,7 +9,7 @@ const sharpGroteskBold = localFont({ src: "../../assets/fonts/Sharp_Grotesk/Shar
 const WhyHaveAPiece = () => {
     return (
         <div className='px-5 d-flex flex-column align-items-center components-container'>
-            <h2 className={`${styles.gradientSubheader} ${sharpGroteskBold.className} gradient-text`}>WHY HAVE A PIECE OF THE CAKE… WHEN YOU CAN HAVE IT ALL</h2>
+            <h2 className={`${styles.gradientSubheader} ${sharpGroteskBold.className} gradient-text2`}>WHY HAVE A PIECE OF THE CAKE… WHEN YOU CAN HAVE IT ALL</h2>
 
             <Image src={images.FabulousVegas} alt="fabulous vegas" className='img-fluid'/>
 

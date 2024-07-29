@@ -9,7 +9,7 @@ const sharpGroteskBold = localFont({ src: "../../assets/fonts/Sharp_Grotesk/Shar
 const SeriousStuff = () => {
     return (
         <div className='d-flex flex-column align-items-center components-container'>
-            <h2 className={`${sharpGroteskBold.className} ${styles.gradientSubheader} gradient-text`}>NOW LETS GET TO THE SERIOUS STUFF</h2>
+            <h2 className={`${sharpGroteskBold.className} ${styles.gradientSubheader} gradient-text2`}>NOW LETS GET TO THE SERIOUS STUFF</h2>
 
             <div className={`${styles.seriousStuffPoints} ${styles.earnRewards} row mb-3`}>
                 <div className="col-2 col-md-1 me-0 me-md-3">
